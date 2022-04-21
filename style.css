@@ -70,6 +70,7 @@ section>i{
 
 .blog_font {
     font-size: 23px;
+    font-weight: bolder
 }
 
 .news {
@@ -169,6 +170,7 @@ a {
 
     .blog_font {
         font-size: 20px;
+        font-weight: bolder
     }
 }
 
@@ -189,6 +191,7 @@ a {
 
     .blog_font {
         font-size: 20px;
+        font-weight: bolder
     }
 
     .footer1 {
@@ -239,6 +242,7 @@ a {
 
     .blog_font {
         font-size: 18px;
+        font-weight: bolder
     }
 
     .twitter {
@@ -274,6 +278,7 @@ a {
 
     .blog_font {
         font-size: 17px;
+        font-weight: bolder
     }
 
     .footer1 {
@@ -332,6 +337,7 @@ a {
 
     .blog_font {
         font-size: 16px;
+        font-weight: bolder
     }
     
     .name {
@@ -384,6 +390,7 @@ a {
 
     .blog_font {
         font-size: 15px;
+        font-weight: bolder
     }
 
     .copyright {
@@ -451,6 +458,7 @@ a {
 
     .blog_font {
         font-size: 12px;
+        font-weight: bolder
     }
 
     .twitter {
@@ -565,6 +573,7 @@ a {
 
     .blog_font {
         font-size: 10px;
+        font-weight: bolder;
     }
 
     .twitter {
@@ -681,6 +690,7 @@ a {
 
     .blog_font {
         font-size: 22px;
+
     }
 
     .twitter {
