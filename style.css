@@ -41,7 +41,7 @@ main {
     border-radius: 50px ;
     text-align: right;
     padding: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .title {
@@ -167,7 +167,7 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 
     .blog_font {
@@ -188,7 +188,7 @@ a {
     border-radius: 50px ;
     text-align: right;
     padding: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     }
 
     .blog_font {
@@ -214,7 +214,7 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 
     .title {
@@ -278,6 +278,19 @@ a {
 
 @media (max-width:700px) {
 
+    .blog {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        font-size: 35px;
+        position: relative;
+        bottom: 50px;
+        border-radius: 50px ;
+        text-align: right;
+        padding: 40px;
+        padding-bottom: 35px;
+    }
+
     .blog_font {
         font-size: 17px;
         font-weight: bolder
@@ -317,7 +330,7 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 30px;
     }
     
     .title {
@@ -365,6 +378,19 @@ a {
 
 @media (max-width:600px) {
     
+    .blog {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        font-size: 35px;
+        position: relative;
+        bottom: 40px;
+        border-radius: 50px ;
+        text-align: right;
+        padding: 40px;
+        padding-bottom: 30px;
+    }
+
     section>i{
         color: #193349;
         position: relative;
@@ -430,7 +456,7 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 20px;
     }
 
     .title {
@@ -545,7 +571,7 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 20px;
     }
 
     .title {
@@ -662,7 +688,7 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
     }
 
     .title {
