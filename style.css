@@ -19,12 +19,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(136 28 88 / 0.5);
+    background-color: rgb(25 51 73 / 0.5);
     border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(136 28 88 / 1);
+    background-color: rgb(25 51 73 / 1);
 }
 
 main {
@@ -48,12 +48,13 @@ main {
     font-size: 100px;
     text-align: center;
     padding-bottom: 100px;
-    color: #881c58;
-    border-bottom: 3px solid #881c58;
+    color: #193349;
+    border-bottom: 3px solid #193349;
+    font-weight: bolder;
 }
 
 section>i{
-    color: #881c58;
+    color: #193349;
     position: relative;
     position: absolute;
     top: 200px;
@@ -63,9 +64,10 @@ section>i{
 
 .name {
     position: relative;
-    bottom: 60px;
+    bottom: 70px;
     right: 60px;
-    color: #881c58;
+    color: #193349;
+    font-size: 35px;
 }
 
 .blog_font {
@@ -219,12 +221,12 @@ a {
         font-size: 80px;
         text-align: center;
         padding-bottom: 100px;
-        color: #881c58;
-        border-bottom: 3px solid #881c58;
+        color: #193349;
+        border-bottom: 3px solid #193349;
     }
     
     section>i{
-        color: #881c58;
+        color: #193349;
         position: relative;
         position: absolute;
         top: 190px;
@@ -236,7 +238,7 @@ a {
         position: relative;
         bottom: 52px;
         right: 48px;
-        color: #881c58;
+        color: #193349;
         font-size: 27px;
     }
 
@@ -322,12 +324,12 @@ a {
         font-size: 73px;
         text-align: center;
         padding-bottom: 100px;
-        color: #881c58;
-        border-bottom: 3px solid #881c58;
+        color: #193349;
+        border-bottom: 3px solid #193349;
     }
     
     section>i{
-        color: #881c58;
+        color: #193349;
         position: relative;
         position: absolute;
         top: 185px;
@@ -344,7 +346,7 @@ a {
         position: relative;
         bottom: 46px;
         right: 45px;
-        color: #881c58;
+        color: #193349;
         font-size: 24px;
     }
 
@@ -364,7 +366,7 @@ a {
 @media (max-width:600px) {
     
     section>i{
-        color: #881c58;
+        color: #193349;
         position: relative;
         position: absolute;
         top: 170px;
@@ -376,7 +378,7 @@ a {
         position: relative;
         bottom: 45px;
         right: 40px;
-        color: #881c58;
+        color: #193349;
         font-size: 20px;
     }
 
@@ -384,8 +386,8 @@ a {
         font-size: 60px;
         text-align: center;
         padding-bottom: 100px;
-        color: #881c58;
-        border-bottom: 3px solid #881c58;
+        color: #193349;
+        border-bottom: 3px solid #193349;
     }
 
     .blog_font {
@@ -435,12 +437,12 @@ a {
         font-size: 50px;
         text-align: center;
         padding-bottom: 100px;
-        color: #881c58;
-        border-bottom: 3px solid #881c58;
+        color: #193349;
+        border-bottom: 3px solid #193349;
     }
     
     section>i{
-        color: #881c58;
+        color: #193349;
         position: relative;
         position: absolute;
         top: 160px;
@@ -452,7 +454,7 @@ a {
         position: relative;
         bottom: 45px;
         right: 33px;
-        color: #881c58;
+        color: #193349;
         font-size: 20px;
     }
 
@@ -550,12 +552,12 @@ a {
         font-size: 38px;
         text-align: center;
         padding-bottom: 100px;
-        color: #881c58;
-        border-bottom: 3px solid #881c58;
+        color: #193349;
+        border-bottom: 3px solid #193349;
     }
     
     section>i{
-        color: #881c58;
+        color: #193349;
         position: relative;
         position: absolute;
         top: 145px;
@@ -567,7 +569,7 @@ a {
         position: relative;
         bottom: 44px;
         right: 30px;
-        color: #881c58;
+        color: #193349;
         font-size: 17px;
     }
 
@@ -667,12 +669,12 @@ a {
         font-size: 38px;
         text-align: center;
         padding-bottom: 100px;
-        color: #881c58;
-        border-bottom: 3px solid #881c58;
+        color: #193349;
+        border-bottom: 3px solid #193349;
     }
     
     section>i{
-        color: #881c58;
+        color: #193349;
         position: relative;
         position: absolute;
         top: 145px;
@@ -684,7 +686,7 @@ a {
         position: relative;
         bottom: 44px;
         right: 30px;
-        color: #881c58;
+        color: #193349;
         font-size: 17px;
     }
 
