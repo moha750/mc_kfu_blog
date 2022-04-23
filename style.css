@@ -27,6 +27,51 @@
     background-color: rgb(25 51 73 / 1);
 }
 
+header {
+    background-image: url(img/bg.jpg);
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+}
+
+.logo {
+    width: 125px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 635px;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 45px 50px 0px 0px;
+    padding: 15px;
+    font-weight: bolder;
+}
+
+.o:hover {
+    color: #193349;
+    background-color: white; opacity: 0.7;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.navbar a.active {
+    color: #193349;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
 main {
     background-color: rgb(230, 228, 228);
 }
@@ -42,6 +87,7 @@ main {
     text-align: right;
     padding: 40px;
     padding-bottom: 40px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
 }
 
 .title {
@@ -70,9 +116,22 @@ section>i{
     font-size: 35px;
 }
 
-.blog_font {
-    font-size: 23px;
-    font-weight: bolder
+.head {
+    text-align: center;
+    background-color: #193349;
+    color: white;
+    padding: 10px;
+    width: 45%;
+    font-size: 40px;
+    margin: 0px auto;
+    border-radius: 25px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+}
+
+.p {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 .news {
@@ -83,12 +142,18 @@ section>i{
 .twitter {
     border-radius: 35px;
     margin: 0px 100px 100px 100px;
+    transition: all 1s ease;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+}
+
+.twitter:hover {
+    transform: scale(1.1);
 }
 
 .news_name {
     color: white;
     font-size: 75px;
-    padding: 75px 0px 45px 0px;
+    padding: 75px 0px 55px 0px;
 }
 
 footer {
@@ -103,35 +168,36 @@ footer {
     margin-bottom: 30px;
 }
 
-a {
+footer>a {
     color: white;
-    margin: 0px 35px;
+    margin: 0px 30px;
     font-size: 40px;
+    padding: 8px;
 }
 
 .youtube_icon:hover {
     background-color: #FF0000;
-    padding: 8px 10px;
     border-radius: 12px;
-    transition: 1s;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
 }
 .instagram_icon:hover {
     background-color: #E1306C;
-    padding: 8px 12px;
     border-radius: 12px;
-    transition: 1s;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
 }
 .twitter_icon:hover {
     background-color: #1DA1F2;
-    padding: 8px 11px;
     border-radius: 12px;
-    transition: 1s;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
 }
 .soundcloud_icon:hover {
     background-color: #F26F23;
-    padding: 8px 8px;
     border-radius: 12px;
-    transition: 1s;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
 }
 
 .copyright {
@@ -155,45 +221,135 @@ a {
 
 /*_____________________________________________media________________________________________________________*/
 
-@media (max-width:1100px) {
+@media (max-width:1600px) {
 
-    .blog {
-        background-color: white;
-        width: 75%;
-        margin: auto;
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 10px;
+        width: 45%;
         font-size: 35px;
-        position: relative;
-        bottom: 70px;
-        border-radius: 50px ;
-        text-align: right;
-        padding: 40px;
-        padding-bottom: 40px;
-    }
-
-    .blog_font {
-        font-size: 20px;
-        font-weight: bolder
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 }
 
-@media  (max-width:1000px) {
+@media (max-width:1500px) {
 
-    .blog {
-    background-color: white;
-    width: 75%;
-    margin: auto;
-    font-size: 35px;
-    position: relative;
-    bottom: 60px;
-    border-radius: 50px ;
-    text-align: right;
-    padding: 40px;
-    padding-bottom: 40px;
+    header {
+        background-image: url(img/bg.jpg);
+        height: 700px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
     }
 
-    .blog_font {
-        font-size: 20px;
-        font-weight: bolder
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 585px;
+    }
+
+    .p {
+        padding: 15px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width:1200px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 660px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 545px;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 208px;
+        right: 43px;
+        font-size: 37px;
+    }
+
+    .p {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    .name {
+        position: relative;
+        bottom: 60px;
+        right: 55px;
+        color: #193349;
+        font-size: 30px;
+    }
+
+    .footer1 {
+        display: inline-block;
+        padding-left: 260px;
+    }
+}
+
+@media (max-width:1100px) {
+
+    .p {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .footer1 {
+        display: inline-block;
+        padding-left: 220px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 590px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 475px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin: 45px 30px 0px 0px;
+        padding: 15px;
+        font-weight: bolder;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 25px;
+        font-weight: bolder;
     }
 
     .footer1 {
@@ -202,19 +358,92 @@ a {
     }
 }
 
+@media (max-width:900px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 525px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 90px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 420px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 40px 40px 0px 0px;
+        padding: 15px;
+        font-weight: bolder;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 23px;
+        font-weight: bolder;
+    }
+    
+    .footer1 {
+        display: inline-block;
+        padding-left: 80px;
+    }
+}
+
 @media (max-width:800px) {
 
-    .blog {
-        background-color: white;
-        width: 75%;
-        margin: auto;
-        font-size: 35px;
-        position: relative;
-        bottom: 50px;
-        border-radius: 50px ;
-        text-align: right;
-        padding: 40px;
-        padding-bottom: 40px;
+    header {
+        background-image: url(img/bg.jpg);
+        height: 470px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 45%;
+        font-size: 25px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    }
+
+    .logo {
+        width: 85px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 385px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 30px 30px 0px 0px;
+        padding: 10px;
+        font-weight: bolder;
     }
 
     .title {
@@ -223,60 +452,178 @@ a {
         padding-bottom: 100px;
         color: #193349;
         border-bottom: 3px solid #193349;
+        font-weight: bolder;
     }
-    
+
     section>i{
         color: #193349;
         position: relative;
         position: absolute;
-        top: 190px;
+        top: 185px;
         right: 43px;
-        font-size: 33px;
+        font-size: 35px;
     }
     
     .name {
         position: relative;
-        bottom: 52px;
-        right: 48px;
+        bottom: 60px;
+        right: 50px;
         color: #193349;
-        font-size: 27px;
+        font-size: 30px;
     }
 
-    .blog_font {
-        font-size: 18px;
-        font-weight: bolder
+    .p {
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bolder;
     }
 
     .twitter {
         border-radius: 35px;
-        margin: 0px 0px 100px 0px;
+        margin: 0px 100px 100px 100px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 70%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
     }
     
     .news_name {
         color: white;
-        font-size: 75px;
-        padding: 75px 0px 45px 0px;
+        font-size: 65px;
+        padding: 75px 0px 55px 0px;
     }
 
-    .footer_name {
-        padding-top: 80px;
-        font-size: 44px;
-        margin-bottom: 30px;
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 20px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
     }
-
+    
     .footer1 {
-        display: inline-block;
-        padding-left: 100px;
-        font-size: 17px;
+        display:block;
+        margin-top: 30px;
+        margin-bottom: 8px;
+        position: relative;
+        right: 40px;
     }
-
+    
     .footer2 {
-        display: inline-block;
-        font-size: 17px;
+        display:block;
+        margin-top: 8px;
     }
 }
 
 @media (max-width:700px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 380px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 75px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 303px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        margin: 30px 15px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 75px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 183px;
+        right: 43px;
+        font-size: 33px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 53px;
+        right: 48px;
+        color: #193349;
+        font-size: 28px;
+    }
+
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 45%;
+        font-size: 25px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 35px;
+        margin: 0px 100px 100px 100px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 65%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 55px;
+        padding: 75px 0px 55px 0px;
+    }
+}
+
+@media (max-width:600px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 340px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
 
     .blog {
         background-color: white;
@@ -288,124 +635,29 @@ a {
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
-        padding-bottom: 35px;
+        padding-bottom: 40px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
     }
 
-    .blog_font {
-        font-size: 17px;
-        font-weight: bolder
+    .logo {
+        width: 70px;
+        margin-top: 16px;
+        margin-left: 16px;
     }
 
-    .footer1 {
-        display: inline-block;
-        padding-left: 50px;
-        font-size: 16px;
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 266px;
     }
 
-    .footer2 {
-        display: inline-block;
-        font-size: 16px;
-    }
-
-    .twitter {
-        border-radius: 35px;
-        width: 500px ;
-    }
-    
-    .news_name {
+    .navbar>a {
+        text-decoration: none;
         color: white;
-        font-size: 63px;
-        padding: 75px 0px 45px 0px;
-}
-
-@media (max-width:630px) {
-
-    .blog {
-        background-color: white;
-        width: 75%;
-        margin: auto;
-        font-size: 35px;
-        position: relative;
-        bottom: 40px;
-        border-radius: 50px ;
-        text-align: right;
-        padding: 40px;
-        padding-bottom: 30px;
-    }
-    
-    .title {
-        font-size: 73px;
-        text-align: center;
-        padding-bottom: 100px;
-        color: #193349;
-        border-bottom: 3px solid #193349;
-    }
-    
-    section>i{
-        color: #193349;
-        position: relative;
-        position: absolute;
-        top: 185px;
-        right: 43px;
-        font-size: 30px;
-    }
-
-    .blog_font {
-        font-size: 16px;
-        font-weight: bolder
-    }
-    
-    .name {
-        position: relative;
-        bottom: 46px;
-        right: 45px;
-        color: #193349;
-        font-size: 24px;
-    }
-
-    .twitter {
-        border-radius: 35px;
-        margin: 0px 0px 75px 0px;
-        width: 450px;
-    }
-    
-    .news_name {
-        color: white;
-        font-size: 50px;
-        padding: 75px 0px 45px 0px;
-    }
-}
-
-@media (max-width:600px) {
-    
-    .blog {
-        background-color: white;
-        width: 75%;
-        margin: auto;
-        font-size: 35px;
-        position: relative;
-        bottom: 40px;
-        border-radius: 50px ;
-        text-align: right;
-        padding: 40px;
-        padding-bottom: 30px;
-    }
-
-    section>i{
-        color: #193349;
-        position: relative;
-        position: absolute;
-        top: 170px;
-        right: 43px;
-        font-size: 27px;
-    }
-
-    .name {
-        position: relative;
-        bottom: 45px;
-        right: 40px;
-        color: #193349;
         font-size: 20px;
+        margin: 30px 5px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
     }
 
     .title {
@@ -414,49 +666,106 @@ a {
         padding-bottom: 100px;
         color: #193349;
         border-bottom: 3px solid #193349;
+        font-weight: bolder;
     }
 
-    .blog_font {
-        font-size: 15px;
-        font-weight: bolder
-    }
-
-    .copyright {
-        background-color: rgb(24, 24, 24);
-        padding-top: 25px;
-        padding-bottom: 25px;
-        font-size: 20px;
-        margin-top: 70px;
-        border-radius: 50px 50px 0px 0px;
-    }
-    
-    .footer1 {
-        font-size: 20px;
-        display:block;
+    section>i{
+        color: #193349;
         position: relative;
-        margin-top: 25px;
-        right: 27px;
+        position: absolute;
+        top: 170px;
+        right: 35px;
+        font-size: 33px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 50px;
+        right: 38px;
+        color: #193349;
+        font-size: 27px;
+    }
+
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 50%;
+        font-size: 25px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 35px;
+        margin: 0px 100px 100px 100px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
     }
     
-    .footer2 {
-        font-size: 20px;
-        display:block;
-    } 
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 50px;
+        padding: 75px 0px 55px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 30px;
+        font-size: 35px;
+        padding: 0px;
+    }
 }
 
 @media (max-width:500px) {
 
-    .blog {
-        background-color: white;
-        width: 75%;
-        margin: auto;
-        font-size: 35px;
-        position: relative;
-        bottom: 30px;
-        border-radius: 50px ;
-        text-align: right;
-        padding: 40px;
-        padding-bottom: 20px;
+    header {
+        background-image: url(img/bg.jpg);
+        height: 280px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 55px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 215px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        margin: 25px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
     }
 
     .title {
@@ -465,218 +774,233 @@ a {
         padding-bottom: 100px;
         color: #193349;
         border-bottom: 3px solid #193349;
+        font-weight: bolder;
     }
-    
+
     section>i{
         color: #193349;
         position: relative;
         position: absolute;
-        top: 160px;
-        right: 40px;
+        top: 165px;
+        right: 35px;
         font-size: 25px;
     }
-    
+
     .name {
         position: relative;
-        bottom: 45px;
-        right: 33px;
+        bottom: 42px;
+        right: 28px;
         color: #193349;
-        font-size: 20px;
-    }
-
-    .blog_font {
-        font-size: 12px;
-        font-weight: bolder
-    }
-
-    .twitter {
-        border-radius: 25px;
-        width: 350px ;
-    }
-    
-    .news_name {
-        color: white;
-        font-size: 44px;
-        padding: 50px 0px 35px 0px;
-        }
-
-        .copyright {
-            background-color: rgb(24, 24, 24);
-            padding-top: 25px;
-            padding-bottom: 25px;
-            font-size: 20px;
-            margin-top: 70px;
-            border-radius: 50px 50px 0px 0px;
-        }
-        
-        .footer1 {
-            font-size: 17px;
-            display:block;
-            position: relative;
-            margin-top: 25px;
-            right: 27px;
-        }
-        
-        .footer2 {
-            font-size: 17px;
-            display:block;
-        } 
-
-        .footer_name {
-            padding-top: 80px;
-            font-size: 35px;
-            margin-bottom: 30px;
-        }
-        
-        a {
-            color: white;
-            margin: 0px 22px;
-            font-size: 40px;
-        }
-        
-        .youtube_icon:hover {
-            background-color: #FF0000;
-            padding: 8px 10px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .instagram_icon:hover {
-            background-color: #E1306C;
-            padding: 8px 12px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .twitter_icon:hover {
-            background-color: #1DA1F2;
-            padding: 8px 11px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .soundcloud_icon:hover {
-            background-color: #F26F23;
-            padding: 8px 8px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-}
-
-@media (max-width:400px) {
-
-    .blog {
-        background-color: white;
-        width: 75%;
-        margin: auto;
-        position: relative;
-        bottom: 25px;
-        border-radius: 50px ;
-        text-align: right;
-        padding: 40px;
-        padding-bottom: 20px;
-    }
-
-    .title {
-        font-size: 38px;
-        text-align: center;
-        padding-bottom: 100px;
-        color: #193349;
-        border-bottom: 3px solid #193349;
-    }
-    
-    section>i{
-        color: #193349;
-        position: relative;
-        position: absolute;
-        top: 145px;
-        right: 40px;
         font-size: 22px;
     }
-    
-    .name {
-        position: relative;
-        bottom: 44px;
-        right: 30px;
-        color: #193349;
-        font-size: 17px;
+
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 55%;
+        font-size: 22px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
-    .blog_font {
-        font-size: 10px;
+    .p {
+        padding: 0px;
+        font-size: 18px;
         font-weight: bolder;
     }
 
     .twitter {
-        border-radius: 22px;
-        width: 250px ;
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
     }
     
     .news_name {
         color: white;
-        font-size: 30px;
-        padding: 45px 0px 25px 0px;
-        }
+        font-size: 40px;
+        padding: 50px 0px 35px 0px;
+    }
 
-        .copyright {
-            background-color: rgb(24, 24, 24);
-            padding-top: 25px;
-            padding-bottom: 25px;
-            font-size: 20px;
-            margin-top: 70px;
-            border-radius: 50px 50px 0px 0px;
-        }
-        
-        .footer1 {
-            font-size: 13px;
-            display:block;
-            position: relative;
-            margin-top: 25px;
-            right: 27px;
-        }
-        
-        .footer2 {
-            font-size: 13px;
-            display:block;
-        } 
+    .footer_name {
+        padding-top: 80px;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 23px;
+        font-size: 35px;
+        padding: 0px;
+    }
 
-        .footer_name {
-            padding-top: 80px;
-            font-size: 23px;
-            margin-bottom: 30px;
-        }
-        
-        a {
-            color: white;
-            padding: 10px 0px;
-            font-size: 25px;
-            display: block;
-        }
-        
-        .youtube_icon:hover {
-            background-color: #FF0000;
-            padding: 8px 10px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .instagram_icon:hover {
-            background-color: #E1306C;
-            padding: 8px 12px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .twitter_icon:hover {
-            background-color: #1DA1F2;
-            padding: 8px 11px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .soundcloud_icon:hover {
-            background-color: #F26F23;
-            padding: 8px 8px;
-            border-radius: 12px;
-            transition: 1s;
-        }
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 17px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
 }
 
-@media (max-width:300px) {
+@media (max-width:500px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 280px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 55px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 215px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        margin: 25px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 165px;
+        right: 35px;
+        font-size: 25px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 42px;
+        right: 28px;
+        color: #193349;
+        font-size: 22px;
+    }
+
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 55%;
+        font-size: 22px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px 35px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 23px;
+        font-size: 35px;
+        padding: 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 17px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
+
+@media (max-width:400px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 220px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 48px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 160px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin: 24px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
 
     .blog {
         background-color: white;
@@ -684,111 +1008,226 @@ a {
         margin: auto;
         font-size: 35px;
         position: relative;
-        bottom: 25px;
+        bottom: 28px;
         border-radius: 50px ;
         text-align: right;
         padding: 40px;
         padding-bottom: 40px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
     }
 
     .title {
-        font-size: 38px;
+        font-size: 45px;
         text-align: center;
         padding-bottom: 100px;
         color: #193349;
         border-bottom: 3px solid #193349;
+        font-weight: bolder;
     }
-    
+
     section>i{
         color: #193349;
         position: relative;
         position: absolute;
-        top: 145px;
-        right: 40px;
+        top: 158px;
+        right: 35px;
         font-size: 22px;
     }
-    
+
     .name {
         position: relative;
-        bottom: 44px;
-        right: 30px;
+        bottom: 43px;
+        right: 25px;
         color: #193349;
-        font-size: 17px;
+        font-size: 20px;
     }
 
-    .blog_font {
-        font-size: 22px;
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 65%;
+        font-size: 18px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    }
 
+    .p {
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bolder;
     }
 
     .twitter {
-        border-radius: 22px;
-        width: 250px ;
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
     }
     
     .news_name {
         color: white;
         font-size: 30px;
-        padding: 45px 0px 25px 0px;
-        }
+        padding: 50px 0px 35px 0px;
+    }
 
-        .copyright {
-            background-color: rgb(24, 24, 24);
-            padding-top: 25px;
-            padding-bottom: 25px;
-            font-size: 20px;
-            margin-top: 70px;
-            border-radius: 50px 50px 0px 0px;
-        }
-        
-        .footer1 {
-            font-size: 13px;
-            display:block;
-            position: relative;
-            margin-top: 25px;
-            right: 27px;
-        }
-        
-        .footer2 {
-            font-size: 13px;
-            display:block;
-        } 
+    .footer_name {
+        padding-top: 80px;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 15px;
+        font-size: 30px;
+        padding: 0px;
+    }
 
-        .footer_name {
-            padding-top: 80px;
-            font-size: 23px;
-            margin-bottom: 30px;
-        }
-        
-        a {
-            color: white;
-            padding: 10px 0px;
-            font-size: 25px;
-            display: block;
-        }
-        
-        .youtube_icon:hover {
-            background-color: #FF0000;
-            padding: 8px 10px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .instagram_icon:hover {
-            background-color: #E1306C;
-            padding: 8px 12px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .twitter_icon:hover {
-            background-color: #1DA1F2;
-            padding: 8px 11px;
-            border-radius: 12px;
-            transition: 1s;
-        }
-        .soundcloud_icon:hover {
-            background-color: #F26F23;
-            padding: 8px 8px;
-            border-radius: 12px;
-            transition: 1s;
-        }
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 15px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
+
+@media (max-width:350px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 220px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 48px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 160px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        margin: 24px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .blog {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        font-size: 35px;
+        position: relative;
+        bottom: 28px;
+        border-radius: 50px ;
+        text-align: right;
+        padding: 40px;
+        padding-bottom: 40px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    }
+
+    .title {
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 158px;
+        right: 35px;
+        font-size: 22px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 43px;
+        right: 25px;
+        color: #193349;
+        font-size: 20px;
+    }
+
+    .head {
+        text-align: center;
+        background-color: #193349;
+        color: white;
+        padding: 15px;
+        width: 65%;
+        font-size: 18px;
+        margin: 0px auto;
+        border-radius: 25px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 30px;
+        padding: 50px 0px 35px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 15px;
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 15px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
 }
