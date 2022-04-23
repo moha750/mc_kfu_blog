@@ -483,8 +483,8 @@ footer>a {
     article {
         margin-top:50px ;
         background-color: white;
-        width: 80%;
-        margin: 40px auto;
+        width: 90%;
+        margin: 20px auto;
         padding: 0px 0px 45px 0px;
         border-radius: 20px ;
         transition: all 1s ease;
@@ -499,7 +499,7 @@ footer>a {
     
     h6 {
         color: #193349;
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 30px;
     }
 
