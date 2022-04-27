@@ -29,17 +29,20 @@
 
 header {
     background-image: url(img/bg.jpg);
+    width: 100%;
     height: 750px;
     background-size: cover;
     display: flex;
     justify-content: space-between;
     background-position: center;
+    isolation: isolate;
 }
 
 .logo {
     width: 125px;
     margin-top: 16px;
     margin-left: 16px;
+
 }
 
 .navbar {
@@ -70,13 +73,11 @@ header {
     border-radius: 20px;
 }
 
-
-
 main {
     background-color: rgb(230, 228, 228);
 }
 
-.blog {
+.blog{
     background-color: white;
     width: 75%;
     margin: auto;
@@ -117,15 +118,9 @@ section>i{
 }
 
 .head {
-    text-align: center;
-    background-color: #193349;
-    color: white;
-    padding: 10px;
-    width: 45%;
+    color: black;
     font-size: 40px;
-    margin: 0px auto;
-    border-radius: 25px;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    padding-top:20px ;
 }
 
 .p {
@@ -224,15 +219,9 @@ footer>a {
 @media (max-width:1600px) {
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 10px;
-        width: 45%;
-        font-size: 35px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 40px;
     }
 }
 
@@ -245,6 +234,12 @@ footer>a {
         display: flex;
         justify-content: space-between;
         background-position: center;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 35px;
     }
 
     .navbar {
@@ -269,6 +264,12 @@ footer>a {
         display: flex;
         justify-content: space-between;
         background-position: center;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 35px;
     }
 
     .navbar {
@@ -314,6 +315,12 @@ footer>a {
         font-weight: bolder;
     }
 
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 33px;
+    }
+
     .footer1 {
         display: inline-block;
         padding-left: 220px;
@@ -335,6 +342,12 @@ footer>a {
         display: flex;
         justify-content: right;
         margin-bottom: 475px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 30px;
     }
 
     .navbar>a {
@@ -390,6 +403,12 @@ footer>a {
         font-weight: bolder;
     }
 
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
     .p {
         padding: 0px;
         font-size: 23px;
@@ -414,15 +433,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 45%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 25px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .logo {
@@ -578,15 +591,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 45%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 25px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .p {
@@ -687,15 +694,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 50%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 25px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .p {
@@ -795,15 +796,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 55%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 22px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .p {
@@ -912,15 +907,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 55%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 22px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .p {
@@ -1043,15 +1032,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 65%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 18px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .p {
@@ -1174,15 +1157,9 @@ footer>a {
     }
 
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 15px;
-        width: 65%;
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
         font-size: 18px;
-        margin: 0px auto;
-        border-radius: 25px;
-        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
     }
 
     .p {
