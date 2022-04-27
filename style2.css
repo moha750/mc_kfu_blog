@@ -85,14 +85,9 @@ img {
 }
 
 .head {
-    text-align: center;
-    background-color: #193349;
-    color: white;
-    padding: 10px;
-    width: 35%;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
     font-size: 40px;
-    margin: 0px auto;
-    border-radius: 25px;
 }
 
 .news_name {
@@ -211,14 +206,9 @@ footer>a {
     }
     
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 10px;
-        width: 35%;
-        font-size: 30px;
-        margin: 0px auto;
-        border-radius: 25px;
+        color: rgb(0, 0, 0);
+        padding-right: 30px;
+        font-size: 37px;
     }
     
     .navbar>a {
@@ -289,14 +279,9 @@ footer>a {
     }
     
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 10px;
-        width: 35%;
-        font-size: 30px;
-        margin: 0px auto;
-        border-radius: 25px;
+        color: rgb(0, 0, 0);
+        padding-right: 30px;
+        font-size: 35px;
     }
 
     .footer1 {
@@ -359,14 +344,9 @@ footer>a {
     }
     
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 10px;
-        width: 50%;
-        font-size: 25px;
-        margin: 0px auto;
-        border-radius: 25px;
+        color: rgb(0, 0, 0);
+        padding-right: 30px;
+        font-size: 33px;
     }
 
     .footer_name {
@@ -458,14 +438,9 @@ footer>a {
     }
     
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 10px;
-        width: 70%;
-        font-size: 20px;
-        margin: 0px auto;
-        border-radius: 25px;
+        color: rgb(0, 0, 0);
+        padding-right: 30px;
+        font-size: 22px;
     }
 
     .footer_name {
@@ -560,14 +535,9 @@ footer>a {
     }
     
     .head {
-        text-align: center;
-        background-color: #193349;
-        color: white;
-        padding: 10px;
-        width: 70%;
+        color: rgb(0, 0, 0);
+        padding-right: 30px;
         font-size: 20px;
-        margin: 0px auto;
-        border-radius: 25px;
     }
 
     .footer_name {
