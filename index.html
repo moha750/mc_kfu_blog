@@ -1,102 +1,1210 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <title>نادي الإعلام</title>
-    <link rel="icon" href="img/mc_club.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-</head>
-<body>
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: ArbFONTS-AGCRegular ;
+    scroll-behavior: smooth;
+}
 
-    <div class="dm"></div>
+@font-face {
+    font-family:'ArbFONTS-AGCRegular';
+    src: url('fonts/ArbFONTS-AGCRegular.ttf');
+}
 
-    <header> 
-        <a href="index.html"><img class="logo" src="img/logo.png" alt="لوقو نادي الإعلام"></a>
-        <nav class="navbar">
-            <a class="o" href="#footer">التواصل</a>
-            <a class="o" href="#news">أخبار</a>
-            <a class="o" href="blogs.html">المقالات</a>
-            <a class="active" href="index.html">الصفحة الرئيسية</a>
-        </nav>
-    </header>
+::-webkit-scrollbar {
+    width: 20px;
+}
 
-    <main>
-        <section class="blog">
-            
-            <h1 class="title">مقال الأسبوع</h1>
-            <i class="fa-solid fa-pencil"></i>
-            <h5 class="name"> أسماء الجلواح </h5>   
+::-webkit-scrollbar-track {
+    background-color: #f6f6f6;
+}
 
-                <div class="head"><b>إنسان .. أم رجل آلي؟</b></div>
+::-webkit-scrollbar-thumb {
+    background-color: rgb(25 51 73 / 0.5);
+    border-radius: 50px;
+}
 
-<br>
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(25 51 73 / 1);
+}
 
-                <p class="p">                بدايةً يُقصد بالروبوت هو الرجل أو الإنسان وتعود بداياته على يد المهندس جورج ديفول الذي صنع أول رجل آلي وكانت وظيفته تحريك الأجسام الثقيلة ونقلها.
-                مع تقدم وتطور العلم، ووجود علم مستقل متخصص بالروبوتات أصبح من الواضح أن نرى الفائدة الكبرى والمنفعة التي تحققها لنا، فأصحبنا نرى الروبوتات تعمل في مجالات واسعة لم تخطر على بالنا يومًا.
-                نراها في الطب، والسيارات، كذلك الروبوتات الأمنية التي تهدف إلى الحفاظ على البشر</p>
+header {
+    background-image: url(img/bg.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+    isolation: isolate;
+}
 
-                <br>
-                
-                <p class="p">من المثير للاهتمام، أن آلة صنعها الإنسان قد تتسبب في دماره يومًا ما، آلة يتحكم بها ويسيطر عليها، تصبح هي المسيطرة والمتحكمة بسير حياته وطبيعتها.
-                فبعدما كانت شيئًا من العدم أصبحت شيئًا كبيرًا ومذهلاً مزودة بذكاء اصطناعي خارق !
-                والسؤال هنا: هل سيتم استبدال عمل الإنسان بالروبوتات؟
-                </p>
-                
-                <br>
-                
-                                <div class="head"><b>نقمة علينا؟</b></div>
-                <br>
-                
-                <p class="p">
-                حسب دراسة أُجريت قبل عامين فإن الروبوتات تقضي على 85 مليون وظيفة خلال خمس أو عشر سنوات !
-                وظائف قليلة .. واختفاء لوظائف اخرى .. والسبب يعود إلى أن مهارات الإنسان وقدراته لن يتم توظيفها والسبب وجود آلة تستطيع القيام بهذه المهام وربما أكثر منها !            
-                </p>
-                
-                <br>
-                
-                                <div class="head"><b>هل هذه أحد مخاوفنا الجديدة؟</b></div>
-                <br>              
-                               <div class="head"><b>!ربما نعمة</b></div> 
-                <br>
-                
-                <p class="p">
-                لو نظرنا إلى الموضوع من زاوية آخرى فإن الروبوتات من عمل الإنسان، وتطور العلم سريع جدًا، وبالتالي فإنها ستحتاج إلى تطوير أكبر مع مرور الزمن مما يعني استخدام لطاقات الإنسان وتوفر فرص وظيفية كثيرة في هذا المجال، فضلاً عن أن الكثير من الباحثين والمختصين قالوا أن بيئة العمل في السنوات القادمة ستكون حتمًا تحت سيطرة البشر مع وجود الذكاء الاصطناعي والروبوتات مما يرفع الإنتاجية في العمل.
-                كما أكدت الدراسات على أن في السنوات القادمة سيكون في كل منظمة رئيس خاص للذكاء الاصطناعي كذلك المنظمات والشركات التي ستفتح مستقبلاً سوف تُنشئ قسمًا مخصصًا للروبوتات والذكاء الاصطناعي.
-                مما يزيد من الفرص الوظيفية في كل الأفرع المتخصصة في هذا المجال
-                </p>
-                
-                <br>
-                
-                <p class="p">
-                بشكلٍ عام لا يمكن الاستغناء عن الطاقات البشرية، والروبوتات في النهاية من عمل الإنسان، وكل ما يصنعه الإنسان قابل للتطوير، خصوصًا مع تقدم العلم، فحتى أذكى الروبوتات لا يمكنها أن تضاهي عقل الإنسان المُبتَكِر
-                 </p>
+.logo {
+    width: 125px;
+    margin-top: 16px;
+    margin-left: 16px;
 
-        </section>
+}
 
-        <section style="text-align: center;" class="news" id="news">
-            <h1 class="news_name">أخبار نادي الإعلام</h1>
-            <a href="https://twitter.com/mc_kfu/status/1515443090642935815" target="_blank"><img class="twitter" src="img/twitter.png" alt="تويتر نادي الإعلام"></a>
+.navbar {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 635px;
+}
 
-        </section>
+.navbar>a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 45px 50px 0px 0px;
+    padding: 15px;
+    font-weight: bolder;
+}
 
-    </main>
+.o:hover {
+    color: #193349;
+    background-color: white; opacity: 0.7;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.navbar a.active {
+    color: #193349;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main {
+    background-color: rgb(230, 228, 228);
+}
+
+.blog{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    font-size: 35px;
+    position: relative;
+    bottom: 100px;
+    border-radius: 50px ;
+    text-align: right;
+    padding: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #193349;
+    border-bottom: 3px solid #193349;
+    font-weight: bolder;
+}
+
+section>i{
+    color: #193349;
+    position: relative;
+    position: absolute;
+    top: 200px;
+    right: 43px;
+    font-size: 40px;
+}
+
+.name {
+    position: relative;
+    bottom: 70px;
+    right: 60px;
+    color: #193349;
+    font-size: 35px;
+}
+
+.head {
+    color: black;
+    font-size: 40px;
+    padding-top:20px ;
+}
+
+.p {
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.news {
+    background-color: #193349;;
+    text-align: center;
+}
+
+.twitter {
+    border-radius: 35px;
+    margin: 0px 100px 100px 100px;
+    transition: all 1s ease;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+}
+
+.news_name {
+    color: white;
+    font-size: 75px;
+    padding: 75px 0px 55px 0px;
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+}
+
+.footer_name {
+    padding-top: 80px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+footer>a {
+    color: white;
+    margin: 0px 30px;
+    font-size: 40px;
+    padding: 8px;
+}
+
+.youtube_icon:hover {
+    background-color: #FF0000;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
+}
+.instagram_icon:hover {
+    background-color: #E1306C;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
+}
+.twitter_icon:hover {
+    background-color: #1DA1F2;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
+}
+.soundcloud_icon:hover {
+    background-color: #F26F23;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    transition: all 1s ease;
+}
+
+.copyright {
+    background-color: rgb(24, 24, 24);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    margin-top: 65px;
+    border-radius: 50px 50px 0px 0px;
     
-    <footer id="footer">
-        <h1 class="footer_name">حسابات نادي الإعلام</h1>
-        <a class="youtube_icon" href="#"><i class="fa-brands fa-youtube"></i></a>
-        <a class="instagram_icon" href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a class="twitter_icon" href="https://twitter.com/mc_kfu" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        <a class="soundcloud_icon" href="#"><i class="fa-brands fa-soundcloud"></i></a>
-        <section>
-            <div class="copyright">
-        <p class="footer2"><b>صُمم بواسطة محمد إسماعيل المطر</b></p>
-        <p class="footer1"><b><i class="fa-regular fa-copyright"></i>جميع الحقوق محفوظة لنادي الإعلام</b></p>
-            </div>
-        </section>
-    </footer>
+}
 
-</body>
-</html>
+.footer1 {
+    display: inline-block;
+    padding-left: 300px;
+}
+
+.footer2 {
+    display: inline-block;
+}
+
+/*_____________________________________________media________________________________________________________*/
+
+@media (max-width:1600px) {
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width:1500px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 700px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 35px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 585px;
+    }
+
+    .p {
+        padding: 15px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}
+
+@media (max-width:1200px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 660px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 35px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 545px;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 208px;
+        right: 43px;
+        font-size: 37px;
+    }
+
+    .p {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+    .name {
+        position: relative;
+        bottom: 60px;
+        right: 55px;
+        color: #193349;
+        font-size: 30px;
+    }
+
+    .footer1 {
+        display: inline-block;
+        padding-left: 260px;
+    }
+}
+
+@media (max-width:1100px) {
+
+    .p {
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 33px;
+    }
+
+    .footer1 {
+        display: inline-block;
+        padding-left: 220px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 590px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 475px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin: 45px 30px 0px 0px;
+        padding: 15px;
+        font-weight: bolder;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .footer1 {
+        display: inline-block;
+        padding-left: 100px;
+    }
+}
+
+@media (max-width:900px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 525px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 90px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 420px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 40px 40px 0px 0px;
+        padding: 15px;
+        font-weight: bolder;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 23px;
+        font-weight: bolder;
+    }
+    
+    .footer1 {
+        display: inline-block;
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:800px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 470px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 85px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 385px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 30px 30px 0px 0px;
+        padding: 10px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 80px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 185px;
+        right: 43px;
+        font-size: 35px;
+    }
+    
+    .name {
+        position: relative;
+        bottom: 60px;
+        right: 50px;
+        color: #193349;
+        font-size: 30px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 35px;
+        margin: 0px 100px 100px 100px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 70%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 65px;
+        padding: 75px 0px 55px 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 20px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+    
+    .footer1 {
+        display:block;
+        margin-top: 30px;
+        margin-bottom: 8px;
+        position: relative;
+        right: 40px;
+    }
+    
+    .footer2 {
+        display:block;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width:700px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 380px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 75px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 303px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        margin: 30px 15px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 75px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 183px;
+        right: 43px;
+        font-size: 33px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 53px;
+        right: 48px;
+        color: #193349;
+        font-size: 28px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 35px;
+        margin: 0px 100px 100px 100px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 65%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 55px;
+        padding: 75px 0px 55px 0px;
+    }
+}
+
+@media (max-width:600px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 340px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .blog {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        font-size: 35px;
+        position: relative;
+        bottom: 50px;
+        border-radius: 50px ;
+        text-align: right;
+        padding: 40px;
+        padding-bottom: 40px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    }
+
+    .logo {
+        width: 70px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 266px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 30px 5px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 60px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 170px;
+        right: 35px;
+        font-size: 33px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 50px;
+        right: 38px;
+        color: #193349;
+        font-size: 27px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 35px;
+        margin: 0px 100px 100px 100px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 50px;
+        padding: 75px 0px 55px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 30px;
+        font-size: 35px;
+        padding: 0px;
+    }
+}
+
+@media (max-width:500px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 280px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 55px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 215px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        margin: 25px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 165px;
+        right: 35px;
+        font-size: 25px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 42px;
+        right: 28px;
+        color: #193349;
+        font-size: 22px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px 35px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 23px;
+        font-size: 35px;
+        padding: 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 17px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
+
+@media (max-width:500px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 280px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 55px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 215px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        margin: 25px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .title {
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 165px;
+        right: 35px;
+        font-size: 25px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 42px;
+        right: 28px;
+        color: #193349;
+        font-size: 22px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px 35px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 23px;
+        font-size: 35px;
+        padding: 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 17px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
+
+@media (max-width:400px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 220px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 48px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 160px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin: 24px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .blog {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        font-size: 35px;
+        position: relative;
+        bottom: 28px;
+        border-radius: 50px ;
+        text-align: right;
+        padding: 40px;
+        padding-bottom: 40px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    }
+
+    .title {
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 158px;
+        right: 35px;
+        font-size: 22px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 43px;
+        right: 25px;
+        color: #193349;
+        font-size: 20px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 30px;
+        padding: 50px 0px 35px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 15px;
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 15px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
+
+@media (max-width:350px) {
+
+    header {
+        background-image: url(img/bg.jpg);
+        height: 220px;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        background-position: center;
+    }
+
+    .logo {
+        width: 48px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        margin-bottom: 160px;
+    }
+
+    .navbar>a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        margin: 24px 0px 0px 0px;
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    .blog {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        font-size: 35px;
+        position: relative;
+        bottom: 28px;
+        border-radius: 50px ;
+        text-align: right;
+        padding: 40px;
+        padding-bottom: 40px;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+    }
+
+    .title {
+        font-size: 45px;
+        text-align: center;
+        padding-bottom: 100px;
+        color: #193349;
+        border-bottom: 3px solid #193349;
+        font-weight: bolder;
+    }
+
+    section>i{
+        color: #193349;
+        position: relative;
+        position: absolute;
+        top: 158px;
+        right: 35px;
+        font-size: 22px;
+    }
+
+    .name {
+        position: relative;
+        bottom: 43px;
+        right: 25px;
+        color: #193349;
+        font-size: 20px;
+    }
+
+    .head {
+        color: rgb(0, 0, 0);
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .p {
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .twitter {
+        border-radius: 25px;
+        margin: 0px 50px 50px 50px;
+        transition: all 1s ease;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+        width: 60%;
+    }
+    
+    .twitter:hover {
+        transform: scale(1.1);
+    }
+    
+    .news_name {
+        color: white;
+        font-size: 30px;
+        padding: 50px 0px 35px 0px;
+    }
+
+    .footer_name {
+        padding-top: 80px;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+    
+    footer>a {
+        color: white;
+        margin: 0px 15px;
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    .copyright {
+        background-color: rgb(24, 24, 24);
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 15px;
+        margin-top: 65px;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
